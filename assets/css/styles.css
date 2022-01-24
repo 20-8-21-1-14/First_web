@@ -1,0 +1,51 @@
+/*reset css*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main {
+}
+
+html {
+    font-family: fantasy;
+}
+
+#header {
+    height: 60px;
+    background-color: #000;
+}
+
+#nav {
+}
+
+#nav li {
+    display: inline-block;
+}
+
+#nav li a {
+    color: #fff;
+    text-decoration: none;
+    line-height: 60px;
+    padding: 0 30px;
+    display: inline-block;
+}
+
+#nav li:hover a {
+    color: rgb(253, 185, 39);
+    background-color: rgb(85, 37, 130);
+}
+
+#nav .subnav {
+    display: none;
+}
+
+#slider {
+}
+
+#content {
+}
+
+#footer {
+}
