@@ -17,11 +17,17 @@ html {
     background-color: #000;
 }
 
-#nav {
+#nav,
+.subnav {
+    list-style-type: none;
+}
+
+#nav > li {
+    display: inline-block;
 }
 
 #nav li {
-    display: inline-block;
+    position: relative;
 }
 
 #nav li a {
@@ -29,19 +35,40 @@ html {
     text-decoration: none;
     line-height: 60px;
     padding: 0 30px;
-    display: inline-block;
+    display: block;
 }
 
-#nav li:hover a {
+#nav .subnav li:hover a,
+#nav > li:hover > a {
     color: rgb(253, 185, 39);
     background-color: rgb(85, 37, 130);
 }
 
+#nav li:hover .subnav {
+    display: block;
+}
+
+#nav > li > a {
+    text-transform: uppercase;
+}
+
 #nav .subnav {
     display: none;
+    position: absolute;
+    min-width: 150px;
+    top: 100%;
+    box-shadow: 0 0 15px;
+}
+
+#nav .subnav a {
+    color: #000;
+    line-height: 45px;
+    padding: 0 12px;
 }
 
 #slider {
+    /* min-height: 500px;
+    background-color: #ccc; */
 }
 
 #content {
