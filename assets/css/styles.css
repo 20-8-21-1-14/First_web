@@ -56,6 +56,7 @@ html {
     display: none;
     position: absolute;
     min-width: 150px;
+    left: 0;
     top: 100%;
     box-shadow: 0 0 15px;
 }
@@ -64,6 +65,10 @@ html {
     color: #000;
     line-height: 45px;
     padding: 0 12px;
+}
+
+#nav .ti-angle-down {
+    font-size: 14px;
 }
 
 #slider {
