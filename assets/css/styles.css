@@ -29,8 +29,8 @@ html {
 }
 
 #header .search_button:hover {
-    color: rgb(253, 185, 39);
     background-color: rgb(85, 37, 130);
+    /* color: rgb(253, 185, 39); */
     cursor: pointer;
 }
 
