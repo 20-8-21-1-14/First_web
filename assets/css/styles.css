@@ -17,6 +17,27 @@ html {
     background-color: #000;
 }
 
+#header .search_button {
+    float: right;
+    padding: 0 24px;
+}
+
+#header .search-icon {
+    color: #fff;
+    font-size: 20px;
+    line-height: 60px;
+}
+
+#header .search_button:hover {
+    color: rgb(253, 185, 39);
+    background-color: rgb(85, 37, 130);
+    cursor: pointer;
+}
+
+#nav {
+    display: inline-block;
+}
+
 #nav,
 .subnav {
     list-style-type: none;
@@ -67,7 +88,7 @@ html {
     padding: 0 12px;
 }
 
-#nav .ti-angle-down {
+#nav .nav-arrow-down {
     font-size: 14px;
 }
 
