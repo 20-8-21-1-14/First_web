@@ -13,6 +13,10 @@ html {
 }
 
 #header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     height: 60px;
     background-color: #000;
 }
@@ -95,6 +99,10 @@ html {
 #slider {
     /* min-height: 500px;
     background-color: #ccc; */
+    margin-top: 60px;
+    padding-top: 50%;
+    background: url("/assets/img/slider/1307066.jpg") top center / center
+        no-repeat;
 }
 
 #content {
