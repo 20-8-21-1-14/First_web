@@ -97,12 +97,22 @@ html {
 }
 
 #slider {
-    /* min-height: 500px;
-    background-color: #ccc; */
+    position: relative;
     margin-top: 60px;
     padding-top: 50%;
     background: url("/assets/img/slider/1307066.jpg") top center / cover
         no-repeat;
+}
+
+#slider .text_content {
+    position: absolute;
+    bottom: 35px;
+    color: rgb(253, 185, 39);
+    /* left: 50%;
+    transform: translateX(-50%); */
+    left: 0;
+    right: 0;
+    text-align: center;
 }
 
 #content {
