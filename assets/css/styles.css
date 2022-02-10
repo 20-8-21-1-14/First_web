@@ -101,7 +101,7 @@ html {
     background-color: #ccc; */
     margin-top: 60px;
     padding-top: 50%;
-    background: url("/assets/img/slider/1307066.jpg") top center / center
+    background: url("/assets/img/slider/1307066.jpg") top center / cover
         no-repeat;
 }
 
