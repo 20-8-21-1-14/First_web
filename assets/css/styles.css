@@ -19,6 +19,7 @@ html {
     right: 0;
     height: 60px;
     background-color: #000;
+    z-index: 1;
 }
 
 #header .search_button {
@@ -84,6 +85,7 @@ html {
     left: 0;
     top: 100%;
     box-shadow: 0 0 15px;
+    background-color: #fff;
 }
 
 #nav .subnav a {
@@ -129,6 +131,28 @@ html {
 }
 
 #content {
+}
+
+#content .content_section {
+    width: 800px;
+    padding: 64px 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+#content .section_header {
+    font-weight: 100;
+    color: rgb(253, 185, 39);
+}
+
+#content .section_sub_heading {
+    font-size: 15px;
+}
+
+#content .section_header,
+.section_sub_heading {
+    text-align: center;
 }
 
 #footer {
