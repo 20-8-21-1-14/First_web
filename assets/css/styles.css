@@ -142,17 +142,28 @@ html {
 }
 
 #content .section_header {
+    font-size: 30px;
     font-weight: 100;
     color: rgb(253, 185, 39);
+    letter-spacing: 2.5px;
 }
 
 #content .section_sub_heading {
     font-size: 15px;
+    margin-top: 25px;
+    font-style: italic;
+    opacity: 0.5;
 }
 
 #content .section_header,
 .section_sub_heading {
     text-align: center;
+}
+
+#content .about_text {
+    font-size: 15px;
+    margin-top: 18px;
+    line-height: 1.4;
 }
 
 #footer {
